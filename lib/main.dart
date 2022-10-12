@@ -6,13 +6,14 @@ void main() => runApp(
         theme: ThemeData.light(),
         home: Scaffold(
             appBar: AppBar(
+              backgroundColor: Colors.orange,
               actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
               title: Text(
                 "pizza  delivery app",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 25,
-                    color: Colors.orange),
+                    color: Colors.white),
               ),
             ),
             body: SafeArea(
